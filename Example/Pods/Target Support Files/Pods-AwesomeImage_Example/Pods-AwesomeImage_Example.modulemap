@@ -1,0 +1,6 @@
+framework module Pods_AwesomeImage_Example {
+  umbrella header "Pods-AwesomeImage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

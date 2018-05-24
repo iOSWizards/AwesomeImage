@@ -1,0 +1,28 @@
+PODS:
+  - AwesomeImage (0.1.0):
+    - AwesomeUIMagic
+  - AwesomeUIMagic (0.4.6)
+
+DEPENDENCIES:
+  - AwesomeImage (from `../`)
+  - AwesomeUIMagic (from `https://github.com/iOSWizards/AwesomeUIMagic`, tag `0.4.6`)
+
+EXTERNAL SOURCES:
+  AwesomeImage:
+    :path: "../"
+  AwesomeUIMagic:
+    :git: https://github.com/iOSWizards/AwesomeUIMagic
+    :tag: 0.4.6
+
+CHECKOUT OPTIONS:
+  AwesomeUIMagic:
+    :git: https://github.com/iOSWizards/AwesomeUIMagic
+    :tag: 0.4.6
+
+SPEC CHECKSUMS:
+  AwesomeImage: e2cc9e91c3f083f0f61d7db409e97aa3b1684574
+  AwesomeUIMagic: ecd21700f29490ba6ca016ec1a38b72a3dc177d9
+
+PODFILE CHECKSUM: c0d5443eb9b5595bbd7b040a1e0eac9f0d7a375f
+
+COCOAPODS: 1.5.2

@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import AwesomeImage
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        imageView.setImage("https://media.istockphoto.com/vectors/awesome-vector-design-element-vector-id508762656")
     }
 
 }

@@ -11,18 +11,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 10 or Higher
+- Swift 4
+
 ## Installation
 
-AwesomeImage is available through [CocoaPods](https://cocoapods.org). To install
+AwesomePurchase is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AwesomeImage'
+pod "AwesomeImage", git: 'https://github.com/iOSWizards/AwesomeImage', tag: '0.1.0'
 ```
+## Usage
 
-## Author
-
-evandro@itsdayoff.com, evandro@itsdayoff.com
+Import with cocoapods and be happy. :)
 
 ## License
 

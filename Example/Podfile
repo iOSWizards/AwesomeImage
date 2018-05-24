@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'AwesomeImage_Example' do
   pod 'AwesomeImage', :path => '../'
+  pod 'AwesomeUIMagic', git: 'https://github.com/iOSWizards/AwesomeUIMagic', tag: '0.4.6'
 
   target 'AwesomeImage_Tests' do
     inherit! :search_paths
