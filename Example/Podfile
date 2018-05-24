@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AwesomeImage_Example' do
+  pod 'AwesomeImage', :path => '../'
+
+  target 'AwesomeImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
