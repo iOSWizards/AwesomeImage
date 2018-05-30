@@ -20,7 +20,7 @@ AwesomePurchase is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "AwesomeImage", git: 'https://github.com/iOSWizards/AwesomeImage', tag: '0.1.0'
+pod "AwesomeImage", git: 'https://github.com/iOSWizards/AwesomeImage', tag: '0.1.1'
 ```
 ## Usage
 

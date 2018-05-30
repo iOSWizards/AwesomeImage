@@ -10,6 +10,9 @@
 		00D75143412C25ADA3181E9E3AE0EF4B /* AwesomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5449524D8569EB63A81CA51F2B77537 /* AwesomeImage.swift */; };
 		03385D033806ECEEEF64174CFA30A481 /* ShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0FC317A6396F480F00BDFF0319FF3 /* ShadowLayer.swift */; };
 		0707D5F765B97C5F0B10365D1AC31605 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D92C0C807548A4B96EB34B897C3CA9 /* GradientView.swift */; };
+		0A29861620BE8739004DC3F3 /* UITableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29861320BE8738004DC3F3 /* UITableViewCellExtensions.swift */; };
+		0A29861720BE8739004DC3F3 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29861420BE8738004DC3F3 /* UIButtonExtensions.swift */; };
+		0A29861820BE8739004DC3F3 /* UICollectionViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29861520BE8738004DC3F3 /* UICollectionViewCellExtensions.swift */; };
 		0A71CF3CA7E7378D32BE2BB8285982D9 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C519EC93B7943EB21DF4025FECEB2603 /* UIImageViewExtensions.swift */; };
 		0D458F3D90B4C27756129E4DD0BB9864 /* UILabel+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289186F7AE5A8C472A4B06FE9CC929F /* UILabel+Formatting.swift */; };
 		14A0D8DE462F0E199DDB6E0FB819EFE9 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A18FC96EE4440FBA55E1FECAC694A5 /* ShimmerView.swift */; };
@@ -81,7 +84,10 @@
 		01595D6C94BA916F6BE8875515B53639 /* Pods-AwesomeImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		02B929CE21695A53B0DDDB0FDF58BE71 /* AwesomeImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeImage-prefix.pch"; sourceTree = "<group>"; };
 		06E975F6740C1B9AB583CBAEE269A3E0 /* Pods-AwesomeImage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeImage_Example-dummy.m"; sourceTree = "<group>"; };
-		08F8B3DBE48062D3075DA059B850F3C3 /* AwesomeUIMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeUIMagic.framework; path = AwesomeUIMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F8B3DBE48062D3075DA059B850F3C3 /* AwesomeUIMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeUIMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A29861320BE8738004DC3F3 /* UITableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtensions.swift; sourceTree = "<group>"; };
+		0A29861420BE8738004DC3F3 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		0A29861520BE8738004DC3F3 /* UICollectionViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtensions.swift; sourceTree = "<group>"; };
 		0BA764D60BFCF982A145D79ECFFE9943 /* AwesomeImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeImage.modulemap; sourceTree = "<group>"; };
 		0F3F808AE48189CFD699DC6447AD3E1E /* ShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowView.swift; path = AwesomeUIMagic/Classes/Shadow/ShadowView.swift; sourceTree = "<group>"; };
 		165AB82E5738CA31DD495260D8B7296C /* Pods-AwesomeImage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeImage_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -104,7 +110,7 @@
 		8289186F7AE5A8C472A4B06FE9CC929F /* UILabel+Formatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Formatting.swift"; path = "AwesomeUIMagic/Classes/Formatting/UILabel+Formatting.swift"; sourceTree = "<group>"; };
 		82D8AE220ABBC42EFD6F6ED609B205C6 /* Pods-AwesomeImage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeImage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		84128B19733540462F9C70320991DBAB /* DesignableNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableNavigationBar.swift; path = AwesomeUIMagic/Classes/Old/DesignableNavigationBar.swift; sourceTree = "<group>"; };
-		855135D5F5831F6EDE578060C9050AC7 /* AwesomeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeImage.framework; path = AwesomeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855135D5F5831F6EDE578060C9050AC7 /* AwesomeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B63F9382F73D0E7DBE047B083BF1E7 /* AwesomeUIMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeUIMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E71983D80B9693A8BF18E632283952 /* Pods-AwesomeImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeImage_Tests-dummy.m"; sourceTree = "<group>"; };
 		89AC1EFA42193BE8E41D5DE329E509A5 /* NSNumberExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSNumberExtensions.swift; path = AwesomeUIMagic/Classes/Old/NSNumberExtensions.swift; sourceTree = "<group>"; };
@@ -112,14 +118,14 @@
 		8D8C3E57E86BDF9125ADC1DCC87BE7C7 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = AwesomeUIMagic/Classes/Old/DesignableTextView.swift; sourceTree = "<group>"; };
 		8E7917D16BE336FD011F8034C5F72D10 /* AwesomeImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeImage-dummy.m"; sourceTree = "<group>"; };
 		8F086989D0845B0114FBA5DA88758821 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = AwesomeUIMagic/Classes/Old/DesignableButton.swift; sourceTree = "<group>"; };
-		8F8CFC91F0AB69432E508D8789F4B4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F8CFC91F0AB69432E508D8789F4B4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99F47DD9EFF3D1832192570E5A84AD7C /* AwesomeUIMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeUIMagic-umbrella.h"; sourceTree = "<group>"; };
 		9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeMediaRequester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeMediaRequester.swift; sourceTree = "<group>"; };
 		A3A0FC317A6396F480F00BDFF0319FF3 /* ShadowLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowLayer.swift; path = AwesomeUIMagic/Classes/Shadow/ShadowLayer.swift; sourceTree = "<group>"; };
 		A4A18FC96EE4440FBA55E1FECAC694A5 /* ShimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmerView.swift; path = AwesomeUIMagic/Classes/Shimmer/ShimmerView.swift; sourceTree = "<group>"; };
 		A5449524D8569EB63A81CA51F2B77537 /* AwesomeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeImage.swift; path = AwesomeImage/Classes/AwesomeImage.swift; sourceTree = "<group>"; };
-		A6DAF8B3BB806AACD875768A819C7906 /* Pods_AwesomeImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeImage_Example.framework; path = "Pods-AwesomeImage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DAF8B3BB806AACD875768A819C7906 /* Pods_AwesomeImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95A47CF40A1B96BAD8E0E846D88F14 /* UIView+Shadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Shadow.swift"; path = "AwesomeUIMagic/Classes/Shadow/UIView+Shadow.swift"; sourceTree = "<group>"; };
 		B2520D82BF2CF584CA623D12B38635E6 /* Pods-AwesomeImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6CB6D9D83A8395457E60FF47FEE6CBB /* AwesomeUIMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeUIMagic.xcconfig; sourceTree = "<group>"; };
@@ -132,12 +138,12 @@
 		C519EC93B7943EB21DF4025FECEB2603 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		D3642A9A0EF250596F57A6AB1476CF53 /* UIView+Shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Shimmer.swift"; path = "AwesomeUIMagic/Classes/Shimmer/UIView+Shimmer.swift"; sourceTree = "<group>"; };
 		D6264CCB69BF2213AB24975A0F8F4F00 /* Pods-AwesomeImage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeImage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D7E2053F12BB8B636C900E2B827E31FC /* Pods_AwesomeImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeImage_Tests.framework; path = "Pods-AwesomeImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E2053F12BB8B636C900E2B827E31FC /* Pods_AwesomeImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D897F4EED330BDC13B5571BBC1461F1B /* AwesomeUIMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeUIMagic.modulemap; sourceTree = "<group>"; };
-		E2599A23C7F4BBA598099377CA1AB171 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2599A23C7F4BBA598099377CA1AB171 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E2A7C6EFE7FA5033BAB1DF0D221F4118 /* Pods-AwesomeImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4AC2B128FD488BCAF9BBF2B07919DF6 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
-		E646CE0948771BD22007D2DE79769E12 /* AwesomeImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AwesomeImage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E646CE0948771BD22007D2DE79769E12 /* AwesomeImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AwesomeImage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC324F459849801AD2A78C923DE905A8 /* Pods-AwesomeImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeImage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EF09CD33EE72FAC5CDED6ED7EAD4E791 /* UIView+Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layer.swift"; path = "AwesomeUIMagic/Classes/Layer/UIView+Layer.swift"; sourceTree = "<group>"; };
 		F37E63A5C186DB178FFEA8D2CFBF4F54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -352,7 +358,6 @@
 				B838F6138966ACE5C33BDD57912AA63A /* UIViewExtensions.swift */,
 				CA8DF6A9F1F107D8CF7609C7B20B0167 /* Support Files */,
 			);
-			name = AwesomeUIMagic;
 			path = AwesomeUIMagic;
 			sourceTree = "<group>";
 		};
@@ -361,6 +366,9 @@
 			children = (
 				E4AC2B128FD488BCAF9BBF2B07919DF6 /* UIImageExtensions.swift */,
 				C519EC93B7943EB21DF4025FECEB2603 /* UIImageViewExtensions.swift */,
+				0A29861420BE8738004DC3F3 /* UIButtonExtensions.swift */,
+				0A29861520BE8738004DC3F3 /* UICollectionViewCellExtensions.swift */,
+				0A29861320BE8738004DC3F3 /* UITableViewCellExtensions.swift */,
 			);
 			name = Extensions;
 			path = AwesomeImage/Classes/Extensions;
@@ -497,7 +505,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -566,12 +574,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A29861820BE8739004DC3F3 /* UICollectionViewCellExtensions.swift in Sources */,
 				9F9A70734AF68647F59D17AB3D17B823 /* AwesomeImage-dummy.m in Sources */,
 				00D75143412C25ADA3181E9E3AE0EF4B /* AwesomeImage.swift in Sources */,
 				29EDC50498CF9DB1D9E4E20119C0C6BA /* AwesomeMediaCacheManager.swift in Sources */,
 				F83571F5D5B475AFFBAA9B18DE748E93 /* AwesomeMediaRequester.swift in Sources */,
 				899E1B9E2946E1BD1B65D9821F8CC509 /* UIImageExtensions.swift in Sources */,
+				0A29861620BE8739004DC3F3 /* UITableViewCellExtensions.swift in Sources */,
 				0A71CF3CA7E7378D32BE2BB8285982D9 /* UIImageViewExtensions.swift in Sources */,
+				0A29861720BE8739004DC3F3 /* UIButtonExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +735,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
