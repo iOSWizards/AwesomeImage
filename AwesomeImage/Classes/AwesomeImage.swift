@@ -13,4 +13,8 @@ public class AwesomeImage {
         return Bundle(for: AwesomeImage.self)
     }
     
+    public static func configureCache(withMemorySize memorySize: Int = 20, diskSize: Int = 200) {
+        AwesomeImageCacheManager.configureCache(withMemorySize: memorySize, diskSize: diskSize)
+    }
+    
 }

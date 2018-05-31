@@ -18,7 +18,7 @@
 		14A0D8DE462F0E199DDB6E0FB819EFE9 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A18FC96EE4440FBA55E1FECAC694A5 /* ShimmerView.swift */; };
 		2187A190864EAF7CE4B0714384E34B4A /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09CD33EE72FAC5CDED6ED7EAD4E791 /* UIView+Layer.swift */; };
 		2665F8A564E34791773D8A1915226D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7120045256AE344E2D548A185BF1021E /* Foundation.framework */; };
-		29EDC50498CF9DB1D9E4E20119C0C6BA /* AwesomeMediaCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeMediaCacheManager.swift */; };
+		29EDC50498CF9DB1D9E4E20119C0C6BA /* AwesomeImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeImageCacheManager.swift */; };
 		2C8BBC7F829144B40AB211A17B3E7775 /* UIView+Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3642A9A0EF250596F57A6AB1476CF53 /* UIView+Shimmer.swift */; };
 		30DA39C3DEB3C39CDECEE2C788131DC9 /* NSNumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AC1EFA42193BE8E41D5DE329E509A5 /* NSNumberExtensions.swift */; };
 		350EC28A22A5AC00BA9F0E08643D0926 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F808AE48189CFD699DC6447AD3E1E /* ShadowView.swift */; };
@@ -44,7 +44,7 @@
 		E94B63974AB40DD7D9ECB77566C0E814 /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA5151D418CE7185672A87F57E8D8C /* ShimmerEffect.swift */; };
 		EC22829655E1D8745D061119DC96AC2A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F086989D0845B0114FBA5DA88758821 /* DesignableButton.swift */; };
 		F31EC8E07FD63764E812578A6229BCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7120045256AE344E2D548A185BF1021E /* Foundation.framework */; };
-		F83571F5D5B475AFFBAA9B18DE748E93 /* AwesomeMediaRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeMediaRequester.swift */; };
+		F83571F5D5B475AFFBAA9B18DE748E93 /* AwesomeImageRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeImageRequester.swift */; };
 		FE539DE808F963CB5EF92F7BA12664C4 /* Pods-AwesomeImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC324F459849801AD2A78C923DE905A8 /* Pods-AwesomeImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -121,7 +121,7 @@
 		8F8CFC91F0AB69432E508D8789F4B4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99F47DD9EFF3D1832192570E5A84AD7C /* AwesomeUIMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeUIMagic-umbrella.h"; sourceTree = "<group>"; };
-		9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeMediaRequester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeMediaRequester.swift; sourceTree = "<group>"; };
+		9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeImageRequester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeImageRequester.swift; sourceTree = "<group>"; };
 		A3A0FC317A6396F480F00BDFF0319FF3 /* ShadowLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowLayer.swift; path = AwesomeUIMagic/Classes/Shadow/ShadowLayer.swift; sourceTree = "<group>"; };
 		A4A18FC96EE4440FBA55E1FECAC694A5 /* ShimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmerView.swift; path = AwesomeUIMagic/Classes/Shimmer/ShimmerView.swift; sourceTree = "<group>"; };
 		A5449524D8569EB63A81CA51F2B77537 /* AwesomeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeImage.swift; path = AwesomeImage/Classes/AwesomeImage.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		EC324F459849801AD2A78C923DE905A8 /* Pods-AwesomeImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeImage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EF09CD33EE72FAC5CDED6ED7EAD4E791 /* UIView+Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layer.swift"; path = "AwesomeUIMagic/Classes/Layer/UIView+Layer.swift"; sourceTree = "<group>"; };
 		F37E63A5C186DB178FFEA8D2CFBF4F54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeMediaCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeMediaCacheManager.swift; sourceTree = "<group>"; };
+		F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeImageCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeImageCacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,8 +209,8 @@
 		261EB19475D662F28A626FA9C18220C4 /* Fetcher */ = {
 			isa = PBXGroup;
 			children = (
-				F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeMediaCacheManager.swift */,
-				9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeMediaRequester.swift */,
+				F5BAE1121C672193A3E5EA24D30EE3CF /* AwesomeImageCacheManager.swift */,
+				9EC1E299EE5238DDB05A4B2A2908226F /* AwesomeImageRequester.swift */,
 			);
 			name = Fetcher;
 			path = AwesomeImage/Classes/Fetcher;
@@ -577,8 +577,8 @@
 				0A29861820BE8739004DC3F3 /* UICollectionViewCellExtensions.swift in Sources */,
 				9F9A70734AF68647F59D17AB3D17B823 /* AwesomeImage-dummy.m in Sources */,
 				00D75143412C25ADA3181E9E3AE0EF4B /* AwesomeImage.swift in Sources */,
-				29EDC50498CF9DB1D9E4E20119C0C6BA /* AwesomeMediaCacheManager.swift in Sources */,
-				F83571F5D5B475AFFBAA9B18DE748E93 /* AwesomeMediaRequester.swift in Sources */,
+				29EDC50498CF9DB1D9E4E20119C0C6BA /* AwesomeImageCacheManager.swift in Sources */,
+				F83571F5D5B475AFFBAA9B18DE748E93 /* AwesomeImageRequester.swift in Sources */,
 				899E1B9E2946E1BD1B65D9821F8CC509 /* UIImageExtensions.swift in Sources */,
 				0A29861620BE8739004DC3F3 /* UITableViewCellExtensions.swift in Sources */,
 				0A71CF3CA7E7378D32BE2BB8285982D9 /* UIImageViewExtensions.swift in Sources */,
