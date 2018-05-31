@@ -7,13 +7,25 @@
 //
 
 import UIKit
+import AwesomeUIMagic
+import Kingfisher
 
 extension UIButton{
     
-    public func setImage(_ url: String?, thumbnailUrl: String? = nil, placeholder: UIImage? = nil, state: UIControlState, completion:((_ image: UIImage?) -> Void)?) {
+    public func setImage(_ urlString: String?, placeholder: UIImage? = nil, state: UIControlState, completion:((UIImage?) -> Void)?) {
         self.layer.masksToBounds = true
         
-        if let placeholder = placeholder {
+        guard let urlString = urlString, let url = URL(string: urlString) else {
+            return
+        }
+        
+        self.startShimmerAnimation()
+        kf.setImage(with: url, for: state, placeholder: placeholder) { (image, _, _, _) in
+            self.stopShimmerAnimation()
+            completion?(image)
+        }
+        
+        /*if let placeholder = placeholder {
             self.setImage(placeholder, for: state)
         }
         
@@ -22,7 +34,7 @@ extension UIButton{
             self.stopShimmerAnimation()
             self.setImage(image, for: state)
             completion?(image)
-        }
+        }*/
     }
     
 }

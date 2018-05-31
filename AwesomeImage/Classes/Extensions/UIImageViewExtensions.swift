@@ -7,13 +7,14 @@
 
 import UIKit
 import AwesomeUIMagic
+import Kingfisher
 
-private var loadedUrlAssociationKey: String = ""
-private var alreadyLoadedOriginalImageAssociationKey: Bool = false
+//private var loadedUrlAssociationKey: String = ""
+//private var alreadyLoadedOriginalImageAssociationKey: Bool = false
 
 extension UIImageView {
     
-    final internal var loadedUrl: String! {
+    /*final internal var loadedUrl: String! {
         get {
             return objc_getAssociatedObject(self, &loadedUrlAssociationKey) as? String
         }
@@ -21,7 +22,7 @@ extension UIImageView {
             objc_setAssociatedObject(self, &loadedUrlAssociationKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
-    
+
     final internal var alreadyLoadedOriginalImage: Bool! {
         get {
             return objc_getAssociatedObject(self, &alreadyLoadedOriginalImageAssociationKey) as? Bool
@@ -29,13 +30,24 @@ extension UIImageView {
         set {
             objc_setAssociatedObject(self, &alreadyLoadedOriginalImageAssociationKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
-    }
+    }*/
     
-    public func setImage(_ url: String?, thumbnailUrl: String? = nil, placeholder: UIImage? = nil, animated: Bool = false, completion:((_ image: UIImage?) -> Void)? = nil) {
+    public func setImage(_ urlString: String?, placeholder: UIImage? = nil, completion:((UIImage?) -> Void)? = nil) {
         self.layer.masksToBounds = true
         
-        self.image = nil
+        guard let urlString = urlString, let url = URL(string: urlString) else {
+            return
+        }
         
+        self.startShimmerAnimation()
+        kf.setImage(with: url, placeholder: placeholder) { (image, _, _, _) in
+            self.stopShimmerAnimation()
+            completion?(image)
+        }
+    }
+        /*
+         self.image = nil
+         
         if let placeholder = placeholder {
             self.image = placeholder
         }
@@ -82,28 +94,7 @@ extension UIImageView {
             }
             self.stopShimmerAnimation()
         }
-    }
-    
-}
-
-// MARK: - UIImage Extension
-
-extension UIImage {
-    
-    public static func loadImage(_ url: String?, completion:@escaping (_ image: UIImage?) -> Void) {
-        if let url = url {
-            let awesomeRequester = AwesomeImageRequester()
-            _ = awesomeRequester.performRequest(url, shouldCache: true, completion: { (data, errorData, responseType) in
-                DispatchQueue.main.async {
-                    if let data = data {
-                        completion(UIImage(data: data))
-                    } else {
-                        completion(nil)
-                    }
-                }
-            })
-        }
-    }
+    }*/
     
 }
 

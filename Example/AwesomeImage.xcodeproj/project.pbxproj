@@ -290,11 +290,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeImage_Example/Pods-AwesomeImage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AwesomeImage/AwesomeImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AwesomeUIMagic/AwesomeUIMagic.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeUIMagic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
