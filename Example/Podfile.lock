@@ -1,18 +1,15 @@
 PODS:
   - AwesomeImage (0.1.3):
     - AwesomeLoading
-    - AwesomeUIMagic
     - Kingfisher (~> 4.0)
   - AwesomeLoading (0.1.5):
     - lottie-ios
-  - AwesomeUIMagic (0.4.6)
   - Kingfisher (4.8.0)
   - lottie-ios (2.5.0)
 
 DEPENDENCIES:
   - AwesomeImage (from `../`)
   - AwesomeLoading (from `https://github.com/iOSWizards/AwesomeLoading`, tag `0.1.5`)
-  - AwesomeUIMagic (from `https://github.com/iOSWizards/AwesomeUIMagic`, tag `0.4.6`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -25,25 +22,18 @@ EXTERNAL SOURCES:
   AwesomeLoading:
     :git: https://github.com/iOSWizards/AwesomeLoading
     :tag: 0.1.5
-  AwesomeUIMagic:
-    :git: https://github.com/iOSWizards/AwesomeUIMagic
-    :tag: 0.4.6
 
 CHECKOUT OPTIONS:
   AwesomeLoading:
     :git: https://github.com/iOSWizards/AwesomeLoading
     :tag: 0.1.5
-  AwesomeUIMagic:
-    :git: https://github.com/iOSWizards/AwesomeUIMagic
-    :tag: 0.4.6
 
 SPEC CHECKSUMS:
-  AwesomeImage: 32e6e0c81a187de82664116c974ef4e51f386c8e
+  AwesomeImage: 7a183c79e6adbccc6026770dbe221f0b5c93c31d
   AwesomeLoading: 08d501a8f4eefc6e8f16bdff4b6856a41c68bdf4
-  AwesomeUIMagic: ecd21700f29490ba6ca016ec1a38b72a3dc177d9
   Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
 
-PODFILE CHECKSUM: fc79f03629cb4270a14200fa5545a3b403658b81
+PODFILE CHECKSUM: 6f45009af8c3be908923a490c9f9f67a3673b02e
 
 COCOAPODS: 1.5.3

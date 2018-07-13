@@ -20,9 +20,6 @@
   },
   "source_files": "AwesomeImage/Classes/**/*.{swift}",
   "dependencies": {
-    "AwesomeUIMagic": [
-
-    ],
     "AwesomeLoading": [
 
     ],

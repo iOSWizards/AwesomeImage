@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'AwesomeUIMagic'
     s.dependency 'AwesomeLoading'
     s.dependency 'Kingfisher', '~> 4.0'
     

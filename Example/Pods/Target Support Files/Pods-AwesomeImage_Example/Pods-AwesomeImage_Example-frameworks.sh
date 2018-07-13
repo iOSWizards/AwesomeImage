@@ -145,14 +145,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AwesomeImage/AwesomeImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AwesomeLoading/AwesomeLoading.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AwesomeUIMagic/AwesomeUIMagic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AwesomeImage/AwesomeImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AwesomeLoading/AwesomeLoading.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AwesomeUIMagic/AwesomeUIMagic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
