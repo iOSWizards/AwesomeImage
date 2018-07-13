@@ -1,0 +1,36 @@
+{
+  "name": "AwesomeLoading",
+  "version": "0.1.5",
+  "summary": "Loading JSON Animation for your Apps",
+  "description": "Loading JSON Animation for your Apps",
+  "homepage": "https://github.com/iOSWizards/AwesomeLoading",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "evandro@mindvalley.com": "evandro@mindvalley.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSWizards/AwesomeLoading.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AwesomeLoading/Classes/**/*.swift",
+  "resources": [
+    "AwesomeLoading/Classes/Resources/AwesomeLoadingView.xib"
+  ],
+  "preserve_paths": "AwesomeLoading/Classes/Resources/AwesomeLoadingView.xib",
+  "resource_bundles": {
+    "AwesomeLoading": [
+      "AwesomeLoading/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "dependencies": {
+    "lottie-ios": [
+
+    ]
+  }
+}
