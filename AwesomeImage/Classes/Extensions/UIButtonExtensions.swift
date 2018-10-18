@@ -12,7 +12,7 @@ import Kingfisher
 
 extension UIButton{
     
-    public func setImage(_ urlString: String?, placeholder: UIImage? = nil, state: UIControlState, completion:((UIImage?) -> Void)?) {
+    public func setImage(_ urlString: String?, placeholder: UIImage? = nil, state: UIControl.State, completion:((UIImage?) -> Void)?) {
         self.layer.masksToBounds = true
         
         guard let urlString = urlString, let url = URL(string: urlString) else {
