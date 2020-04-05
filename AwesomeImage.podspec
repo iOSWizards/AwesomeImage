@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AwesomeImage'
-    s.version          = '0.1.5'
+    s.version          = '0.2.0'
     s.summary          = 'A short description of AwesomeImage.'
     
     # This description is used to generate tags and improve search results.
@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AwesomeLoading'
-    s.dependency 'Kingfisher', '~> 4.0'
+    s.dependency 'Kingfisher', '~> 5.13'
     
 end
